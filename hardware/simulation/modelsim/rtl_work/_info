@@ -1,0 +1,497 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim
+vdecoder7
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1688953651
+!i10b 1
+!s100 J^?YjT4V[E7kE7P46?00z1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImkA=<1McoZ;SY<T:5LOY_3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1676383190
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v
+!i122 16
+L0 2 30
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1688953651.000000
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v|
+!i113 1
+Z7 o-sv -work work
+!s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils
+Z8 tCvgOpt 0
+vfixed_mult
+R1
+R2
+!i10b 1
+!s100 PQRdjmN]5hRdec:BWRF?Z3
+R3
+IIc_?md52L7>i>Z;dIiJIe2
+R4
+S1
+R0
+w1684815629
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v
+!i122 3
+L0 2 31
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v|
+!i113 1
+R7
+Z9 !s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics
+R8
+vfully_connected
+R1
+R2
+!i10b 1
+!s100 C_I`^Uhg5Pe2o]mS8Ncoi2
+R3
+II?Wg]``bkX^I[H:FH84bZ3
+R4
+S1
+R0
+w1684340321
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v
+!i122 17
+L0 2 105
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v|
+!i113 1
+R7
+!s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected
+R8
+vkernel_buffer
+R1
+R2
+!i10b 1
+!s100 <3mcdehELQi63T8T8eiOJ0
+R3
+ImY^k:zXeSfW;zzo=m_Ug_1
+R4
+S1
+R0
+w1688649482
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v
+!i122 4
+L0 2 115
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v|
+!i113 1
+R7
+Z10 !s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers
+R8
+vmax_pool_2x2
+R1
+R2
+!i10b 1
+!s100 6LT?f@Rc?aE@kZRSC2XG;0
+R3
+IkmW=9c;^PG:WzWgj^zlb=2
+R4
+S1
+R0
+w1676385263
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v
+!i122 10
+L0 1 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v|
+!i113 1
+R7
+!s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling
+R8
+vpll
+R1
+R2
+!i10b 1
+!s100 =AV1hTa:91j8Jo=H57l8]1
+R3
+IUUm3Eac>LA>jS]I7eJ=h73
+R4
+S1
+R0
+w1688566568
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v
+!i122 9
+L0 2 88
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v|
+!i113 1
+R7
+!s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll
+R8
+vpll_ram
+R2
+!i10b 1
+!s100 d]QFcE;B3D=`cX86l7_df2
+R3
+In1`oR<?d]l`]L^j8<nC@J2
+R4
+R0
+w1678907977
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo
+!i122 0
+Z11 L0 32 264
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo|
+!s90 -reportprogress|300|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo|
+!i113 1
+R8
+vpll_slow
+R2
+!i10b 1
+!s100 FXhf>zB>68PdVQWnbGXj_3
+R3
+IZfY1ADM23nefTKgS18<4?1
+R4
+R0
+w1678907658
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo
+!i122 1
+R11
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo|
+!s90 -reportprogress|300|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo|
+!i113 1
+R8
+vram_input_image
+R1
+R2
+!i10b 1
+!s100 mR4D^=@_oW2bCQVRXZnVc2
+R3
+IYSaL2zBC_EoaQK=b^IGY_2
+R4
+S1
+R0
+w1688605245
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v
+!i122 11
+L0 40 70
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v|
+!i113 1
+R7
+Z12 !s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram
+R8
+vram_output_image
+R1
+R2
+!i10b 1
+!s100 n8jDXUGZFPj<YRQTfm1cE2
+R3
+I[7>Iz]]bPlObZJc7WV1PL2
+R4
+S1
+R0
+w1687373874
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v
+!i122 15
+L0 40 65
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v|
+!i113 1
+R7
+R12
+R8
+vrelu
+R1
+R2
+!i10b 1
+!s100 NE;GZI55YAz2a3Z3zJ^a]1
+R3
+IL12`UXW@a9ZOgOo8`76C@3
+R4
+S1
+R0
+w1687721335
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v
+!i122 2
+L0 2 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v|
+!i113 1
+R7
+R9
+R8
+vrom_fully_connected_0
+R1
+R2
+!i10b 1
+!s100 C[QU=9mUa=j^c>SJ9T::P1
+R3
+IoU`iDf__OfkcgTj6@BWHE0
+R4
+S1
+R0
+w1688682443
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v
+!i122 14
+L0 40 62
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v|
+!i113 1
+R7
+Z13 !s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom
+R8
+vrom_kernel_weights_0
+R1
+R2
+!i10b 1
+!s100 Ma0Hkhlj78k[eY8^I9Ge>1
+R3
+I:Z<Hkf7J]6@@;_Ij9^Tj41
+R4
+S1
+R0
+w1688750245
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v
+!i122 12
+Z14 L0 40 64
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v|
+!i113 1
+R7
+R13
+R8
+vrom_kernel_weights_1
+R1
+R2
+!i10b 1
+!s100 h?WD[8>GF7QXTbaWENo^d0
+R3
+I>`NcBioTzTPiN16zP]j?S2
+R4
+S1
+R0
+w1688750250
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v
+!i122 13
+R14
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v|
+!i113 1
+R7
+R13
+R8
+vtest_winograd_simple_mnist_tb
+R1
+R2
+!i10b 1
+!s100 lTE<6[k1VHe=^hoD=[[?`3
+R3
+Iigc6ekSSF@93:EkMADERR3
+R4
+S1
+R0
+w1688953539
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v
+!i122 18
+L0 3 424
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v|
+!i113 1
+R7
+!s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim
+R8
+vwindow_buffer
+R1
+R2
+!i10b 1
+!s100 :APR^0@XADg?gKM0V3Sga2
+R3
+IG7R^6JzGaIiY<7S?H9F<S1
+R4
+S1
+R0
+w1684185546
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v
+!i122 5
+L0 2 33
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v|
+!i113 1
+R7
+R10
+R8
+vwinograd_4x4_conv_core
+R1
+R2
+!i10b 1
+!s100 cF2FRY^eVH1MF[:WS9Dh=2
+R3
+IHgJ@o2lF0UD@HZOCWa7Y?2
+R4
+S1
+R0
+w1688951654
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v
+!i122 6
+L0 2 324
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v|
+!i113 1
+R7
+Z15 !s92 -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd
+R8
+vwinograd_4x4_conv_kernel
+R1
+R2
+!i10b 1
+!s100 1:4gZI4C1`@lQmTCA7zlT3
+R3
+I1N1C@@JaFTAN4E<?ESKE]2
+R4
+S1
+R0
+w1686143067
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v
+!i122 7
+L0 4 74
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v|
+!i113 1
+R7
+R15
+R8
+vwinograd_4x4_data_transformation
+R1
+R2
+!i10b 1
+!s100 VHVo<_PQ7g7nkDPJkF?RL0
+R3
+IIQlEio2ZBHNGMlEjT;KWm1
+R4
+S1
+R0
+w1686143001
+8/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v
+F/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v
+!i122 8
+L0 3 64
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd|/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v|
+!i113 1
+R7
+R15
+R8

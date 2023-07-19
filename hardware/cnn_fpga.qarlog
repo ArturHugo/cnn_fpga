@@ -1,0 +1,81 @@
+Quartus Prime Archive log --	/home/artur/Documents/UNB/TG/cnn_fpga/hardware/cnn_fpga.qarlog
+
+Archive:	/home/artur/Documents/UNB/TG/cnn_fpga/hardware/cnn_fpga.qar
+Date:		Tue Jun 27 11:46:07 2023
+Quartus Prime		21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+	=========== Files Selected: ===========
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/cnn_fpga.out.sdc
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/cnn_fpga.qpf
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/cnn_fpga.qsf
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_spatial/spatial_conv_core.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_spatial/spatial_conv_kernel.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected_comb.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_input_image.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_input_image.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/mif_files/RFC0_simple_mnist_spatial.mif
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/mif_files/RKW0_simple_mnist_spatial.mif
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/mif_files/RKW1_simple_mnist_spatial.mif
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/mif_files/mnist_x_test_0_norm.mif
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/parameters.sv
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram.cmp
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram.sip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram.spd
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram/pll_ram_0002.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram/pll_ram_0002.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow.cmp
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow.sip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow.spd
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow/pll_slow_0002.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow/pll_slow_0002.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/avg_pool_2x2.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.qip
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rbf_conversion.cof
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_hps_state_machine_tb.do
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_spatial_conv_core_kernels_tb.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_conv_with_pooling_tb.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_kernel_buffer.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_conv.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_conv_core_channels.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_conv_core_kernels.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_conv_core_layers.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_conv_with_pooling.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_simple_mnist.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_spatial_simple_mnist_comb_fc.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_window_buffer.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_winograd_conv_with_pooling.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_winograd_simple_mnist.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/top.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v
+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/fdiv.v
+/home/artur/intelFPGA_lite/21.1/quartus/linux64/assignment_defaults.qdf
+	======= Total: 70 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

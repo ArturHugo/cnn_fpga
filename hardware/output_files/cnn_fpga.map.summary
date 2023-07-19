@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Wed Jul 12 14:42:25 2023
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : cnn_fpga
+Top-level Entity Name : test_spatial_simple_mnist
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 32399
+Total pins : 67
+Total virtual pins : 0
+Total block memory bits : 3,153,088
+Total DSP Blocks : 86
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

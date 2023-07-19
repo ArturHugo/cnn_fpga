@@ -1,0 +1,521 @@
+# ERROR: No extended dataflow license exists
+# do cnn_fpga_run_msim_rtl_verilog.do
+# if ![file isdirectory cnn_fpga_iputf_libs] {
+# 	file mkdir cnn_fpga_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/artur/intelFPGA_lite/ModelSim/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo"   
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo 
+# -- Compiling module pll_ram
+# 
+# Top level modules:
+# 	pll_ram
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo 
+# -- Compiling module pll_slow
+# 
+# Top level modules:
+# 	pll_slow
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v 
+# -- Compiling module relu
+# 
+# Top level modules:
+# 	relu
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v 
+# -- Compiling module fixed_mult
+# 
+# Top level modules:
+# 	fixed_mult
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v 
+# -- Compiling module kernel_buffer
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v(15): (vlog-13314) Defaulting port 'hold_kernel_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	kernel_buffer
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v 
+# -- Compiling module window_buffer
+# 
+# Top level modules:
+# 	window_buffer
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v 
+# -- Compiling module winograd_4x4_conv_core
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(20): (vlog-13314) Defaulting port 'data_valid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(21): (vlog-13314) Defaulting port 'kernel_valid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(22): (vlog-13314) Defaulting port 'hold_data_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(25): (vlog-13314) Defaulting port 'data_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(26): (vlog-13314) Defaulting port 'kernel_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	winograd_4x4_conv_core
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v 
+# -- Compiling module winograd_4x4_conv_kernel
+# 
+# Top level modules:
+# 	winograd_4x4_conv_kernel
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v 
+# -- Compiling module winograd_4x4_data_transformation
+# 
+# Top level modules:
+# 	winograd_4x4_data_transformation
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v 
+# -- Compiling module fully_connected
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v(16): (vlog-13314) Defaulting port 'biases_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	fully_connected
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v 
+# -- Compiling module rom_fully_connected_0
+# 
+# Top level modules:
+# 	rom_fully_connected_0
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v 
+# -- Compiling module rom_kernel_weights_0
+# 
+# Top level modules:
+# 	rom_kernel_weights_0
+# End time: 22:47:30 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:30 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v 
+# -- Compiling module rom_kernel_weights_1
+# 
+# Top level modules:
+# 	rom_kernel_weights_1
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v 
+# -- Compiling module max_pool_2x2
+# 
+# Top level modules:
+# 	max_pool_2x2
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v 
+# -- Compiling module ram_input_image
+# 
+# Top level modules:
+# 	ram_input_image
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v 
+# -- Compiling module ram_output_image
+# 
+# Top level modules:
+# 	ram_output_image
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_winograd_simple_mnist.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/test" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/test/test_winograd_simple_mnist.v 
+# -- Compiling module test_winograd_simple_mnist
+# 
+# Top level modules:
+# 	test_winograd_simple_mnist
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.do"
+# transcript on
+# if ![file isdirectory cnn_fpga_iputf_libs] {
+# 	file mkdir cnn_fpga_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo"   
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/ram/pll_ram_sim/pll_ram.vo 
+# -- Compiling module pll_ram
+# 
+# Top level modules:
+# 	pll_ram
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog "/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/slow/pll_slow_sim/pll_slow.vo 
+# -- Compiling module pll_slow
+# 
+# Top level modules:
+# 	pll_slow
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/activation/relu.v 
+# -- Compiling module relu
+# 
+# Top level modules:
+# 	relu
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/arithmetics/fixed_mult.v 
+# -- Compiling module fixed_mult
+# 
+# Top level modules:
+# 	fixed_mult
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v 
+# -- Compiling module kernel_buffer
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/kernel_buffer.v(15): (vlog-13314) Defaulting port 'hold_kernel_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	kernel_buffer
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/buffers/window_buffer.v 
+# -- Compiling module window_buffer
+# 
+# Top level modules:
+# 	window_buffer
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v 
+# -- Compiling module winograd_4x4_conv_core
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(20): (vlog-13314) Defaulting port 'data_valid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(21): (vlog-13314) Defaulting port 'kernel_valid_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(22): (vlog-13314) Defaulting port 'hold_data_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(25): (vlog-13314) Defaulting port 'data_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_core.v(26): (vlog-13314) Defaulting port 'kernel_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	winograd_4x4_conv_core
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_conv_kernel.v 
+# -- Compiling module winograd_4x4_conv_kernel
+# 
+# Top level modules:
+# 	winograd_4x4_conv_kernel
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/conv_winograd/winograd_4x4_data_transformation.v 
+# -- Compiling module winograd_4x4_data_transformation
+# 
+# Top level modules:
+# 	winograd_4x4_data_transformation
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pll/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/pooling/max_pool_2x2.v 
+# -- Compiling module max_pool_2x2
+# 
+# Top level modules:
+# 	max_pool_2x2
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v 
+# -- Compiling module ram_input_image
+# 
+# Top level modules:
+# 	ram_input_image
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v 
+# -- Compiling module rom_kernel_weights_0
+# 
+# Top level modules:
+# 	rom_kernel_weights_0
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_1.v 
+# -- Compiling module rom_kernel_weights_1
+# 
+# Top level modules:
+# 	rom_kernel_weights_1
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/rom" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v 
+# -- Compiling module rom_fully_connected_0
+# 
+# Top level modules:
+# 	rom_fully_connected_0
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_output_image.v 
+# -- Compiling module ram_output_image
+# 
+# Top level modules:
+# 	ram_output_image
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/utils/decoder7.v 
+# -- Compiling module decoder7
+# 
+# Top level modules:
+# 	decoder7
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v 
+# -- Compiling module fully_connected
+# ** Warning: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/fully_connected/fully_connected.v(16): (vlog-13314) Defaulting port 'biases_i' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# 
+# Top level modules:
+# 	fully_connected
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vlog -sv -work work +incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim {/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:47:31 on Jul 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim" /home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v 
+# -- Compiling module test_winograd_simple_mnist_tb
+# 
+# Top level modules:
+# 	test_winograd_simple_mnist_tb
+# End time: 22:47:31 on Jul 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_winograd_simple_mnist_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_winograd_simple_mnist_tb 
+# Start time: 22:47:31 on Jul 09,2023
+# Loading sv_std.std
+# Loading work.test_winograd_simple_mnist_tb
+# Loading work.ram_input_image
+# Loading altera_mf_ver.altsyncram
+# Loading work.winograd_4x4_conv_core
+# Loading work.winograd_4x4_conv_kernel
+# Loading work.winograd_4x4_data_transformation
+# Loading work.max_pool_2x2
+# Loading work.relu
+# Loading work.rom_kernel_weights_0
+# Loading work.kernel_buffer
+# Loading work.rom_kernel_weights_1
+# Loading work.fully_connected
+# Loading work.rom_fully_connected_0
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.fixed_mult
+# Loading work.window_buffer
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'address'. The port definition is at: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/ram/ram_input_image.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /test_winograd_simple_mnist_tb/RAMI File: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v Line: 125
+# ** Warning: (vsim-3015) [PCDPC] - Port size (11) does not match connection size (16) for port 'address'. The port definition is at: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_kernel_weights_0.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /test_winograd_simple_mnist_tb/RKW0 File: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v Line: 191
+# ** Warning: (vsim-3015) [PCDPC] - Port size (14) does not match connection size (16) for port 'address'. The port definition is at: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/memory/rom_fully_connected_0.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /test_winograd_simple_mnist_tb/RFC0 File: /home/artur/Documents/UNB/TG/cnn_fpga/hardware/simulation/modelsim/test_winograd_simple_mnist_tb.v Line: 296
+# add wave *
+# 
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/result_valid_0
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/hold_data_0
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/hold_kernel_0
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/result_valid_1
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/hold_data_1
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/hold_kernel_1
+# 
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/rami_data_out
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/rkw0_rdaddress
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/rkw1_rdaddress
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/rfc0_rdaddress
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/clock_driver
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/system_clock
+# 
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/output_values_to_process
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/total_cycles
+# 
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_0/input_window
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_0/pool_window
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_0/channel_accumulator
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_0/buffered_elements
+# 
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_1/input_window
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_1/pool_window
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_1/channel_accumulator
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/WINOGRAD_4x4_CONV_CORE_1/buffered_elements
+# 
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/logits
+# add wave -position insertpoint  \
+# sim:/test_winograd_simple_mnist_tb/hold_data_fc
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 22:58:58 on Jul 09,2023, Elapsed time: 0:11:27
+# Errors: 0, Warnings: 3

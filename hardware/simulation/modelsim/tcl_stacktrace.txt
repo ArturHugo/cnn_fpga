@@ -1,0 +1,37 @@
+Wed May 03 18:47:45 -03 2023
+Trace back: list element in braces followed by "text" instead of space
+    while executing
+"lindex $icon 0"
+    (procedure "selIcon" line 2)
+    invoked from within
+"selIcon .main_pane.objects.interior.cs.body.tree {SVP5Nq VksNNq TZgcSq -1 0 0 0 0} {{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..."
+    (in namespace inscope "::QObjects" script line 1)
+    invoked from within
+"namespace inscope ::QObjects {selIcon .main_pane.objects.interior.cs.body.tree {SVP5Nq VksNNq TZgcSq -1 0 0 0 0} {{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xx..."
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel "#0" $cmd"
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_evalCmd" body line 45)
+    invoked from within
+"_evalCmd $itk_option(-iconcommand) $node -icon $icon"
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_iconSelect" body line 7)
+    invoked from within
+"_iconSelect $idx $ident"
+    ("default" arm line 3)
+    invoked from within
+"switch -exact $ident {
+		"" {
+		    # Ignore this which means the mouse is over
+		    # nothing identifiable
+		}
+		expand {
+		    # Already handled (s..."
+    (object "::.main_pane.objects.interior.cs.body.tree" method "::vsimwidgets::Hierarchy::_buttonRelease1" body line 15)
+    invoked from within
+"::.main_pane.objects.interior.cs.body.tree _buttonRelease1 .main_pane.objects.interior.cs.body.tree.lwchildsite.clipper.canvas.sfchildsite.col1 25 98"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.objects.interior.cs.body.tree _buttonRelease1 .main_pane.objects.interior.cs.body.tree.lwchil..."
+    (command bound to event)
+  <2:/home/artur/intelFPGA_lite/ModelSim/20.1/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {list element in braces followed by "text" instead of space}
+  <1:eval:1: ::tk::dialog::error::bgerror {list element in braces followed by "text" instead of space}
